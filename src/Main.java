@@ -5,7 +5,7 @@ public class Main {
 	int addedAmount = 1100;
     int bonus;
 
-    if (currentBalance + addedAmount >= 1000){
+    if (addedAmount >= 1000){
         bonus = addedAmount / 100;
         currentBalance += (addedAmount + bonus);
     }
